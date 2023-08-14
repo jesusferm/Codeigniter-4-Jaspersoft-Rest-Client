@@ -36,6 +36,17 @@ composer create-project codeigniter4/appstarter civ4-jasper
 O bien ir al [official site](https://codeigniter.com) y descargar la versión 3, éste ejemplo es para la versión 3.
 
 
+### Configurar el archivo .env
+
+En el archivo .env se configuran los accesos para jasperreports añadir lo siguiente y adaptarlo al proyecto que se use
+
+```
+JASPER_SERVER_USERNAME=jasperadmin
+JASPER_SERVER_PASSWORD=jasperadmin
+JASPER_SERVER_URL=http://localhost:8080/jasperserver
+```
+
+
 ### Descomprimir el archivo en htdocs de xampp
 
 Entrar al proyecto desde la terminal y descargar el paquete:
